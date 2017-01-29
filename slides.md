@@ -6,7 +6,7 @@ john@apptentive.com
 
 [github.com/jwfearn/slides-vagrant](https://github.com/jwfearn/slides-vagrant)
 
-
+---
 
 ## Vagrant is:
 A free, open-source, command-line tool for script-based virtual machine
@@ -14,7 +14,7 @@ management.
 
 <p class="fragment">Maintained by [Hashicorp](https://hashicorp.com/)</p>
 
-
+---
 
 ## Advantages
 <p class="fragment">Repeatable</p>
@@ -25,7 +25,7 @@ management.
 <p class="fragment">Shared directories</p>
 <p class="fragment">Repeatable</p>
 
-
+---
 
 ## Requires
 <span class="fragment">Host OS</span>
@@ -34,7 +34,7 @@ management.
 <span class="fragment">Hypervisor</span>
 <span class="fragment">(e.g., VirtualBox, VMware, Hyper-V, etc.)</span>
 
-
+---
 
 ## Terminology
 *Provider* - Hypervisor Adapter
@@ -43,7 +43,7 @@ management.
 
 *Provisioner* - System for installing and configuring software within a VM
 
-
+---
 
 ## Providers
 Adapt Hypervisor-specific APIs to common Vagrant API
@@ -54,7 +54,7 @@ Adapt Hypervisor-specific APIs to common Vagrant API
   <li>*others*</li>
 </ul>
 
-
+---
 
 ## Boxes
 <p class="fragment">Base OS image</p>
@@ -65,7 +65,7 @@ Adapt Hypervisor-specific APIs to common Vagrant API
 <p class="fragment">One can create custom boxes</p>
 <p class="fragment">Boxes often only support some Providers</p>
 
-
+---
 
 ## Provisioners
 Runs installation/configuration scripts in systems
@@ -79,7 +79,7 @@ Runs installation/configuration scripts in systems
   <li>*others*</li>
 </ul>
 
-
+---
 
 ## Conventions/Defaults
 <p class="fragment">`Vagrantfile`</p>
@@ -89,15 +89,15 @@ Runs installation/configuration scripts in systems
 <p class="fragment">User `vagrant`</p>
 <p class="fragment">Shared directory `/vagrant`</p>
 
-
+---
 
 ## Sample Vagrantfile
 
-
+---
 
 ## Sample provision.sh
 
-
+---
 
 ## Common Vagrant Commands
 `vagrant up`
@@ -108,6 +108,6 @@ Runs installation/configuration scripts in systems
 
 `vagrant destroy`
 
-
+---
 
 ## Demo
